@@ -1,10 +1,9 @@
-package com.rlucas
+package com.rlucas.db
 
 import cats.effect.IO
 import doobie.util.transactor.Transactor
 
 import scala.concurrent.ExecutionContext
-
 
 trait Database {
 
