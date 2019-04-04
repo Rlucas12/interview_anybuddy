@@ -8,7 +8,7 @@ Créer un service web qui accepte des événements de type iCalendar et les e
       via un web service http
 - [x] Parser l'événement
 - [x] Enregistrer l'événement dans une base de données (Potsgres)
-- [ ] Écrire les tests
+- [x] Écrire les tests
       
 ## Contraintes
 - [x] Langage scala
