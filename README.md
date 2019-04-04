@@ -7,7 +7,7 @@ Créer un service web qui accepte des événements de type iCalendar et les e
 - [x] Accepter un événement de type VEVENT (prendre l’exemple page 53 du RFC5545)
       via un web service http
 - [x] Parser l'événement
-- [ ] Enregistrer l'événement dans une base de données (Potsgres)
+- [x] Enregistrer l'événement dans une base de données (Potsgres)
 - [ ] Écrire les tests
       
 ## Contraintes
