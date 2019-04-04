@@ -1,10 +1,5 @@
 DROP TABLE IF EXISTS vevent;
-DROP EXTENSION IF EXISTS "uuid-ossp";
-
-CREATE EXTENSION "uuid-ossp";
-
 CREATE TABLE vevent (
-	id UUID  NOT NULL DEFAULT uuid_generate_v4(),
     dtstamp CHARACTER VARYING (150),
     uid CHARACTER VARYING (150),
     dtstart CHARACTER VARYING (150),
@@ -37,5 +32,5 @@ CREATE TABLE vevent (
     rdate CHARACTER VARYING (150),
     xProp CHARACTER VARYING (150),
     ianaProp CHARACTER VARYING (150),
-    PRIMARY KEY (id)
+    PRIMARY KEY (uid)
 );
